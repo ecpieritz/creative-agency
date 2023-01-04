@@ -4,3 +4,8 @@ body{
  background-color: $ca-bg;
  color: $ca-white;
 }
+
+.container-fluid{
+  max-width: 1260px;
+  margin: auto;
+}
