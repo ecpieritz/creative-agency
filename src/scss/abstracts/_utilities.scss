@@ -1,0 +1,61 @@
+@import './variables';
+
+body{
+ background-color: $ca-bg;
+ color: $ca-white;
+}
+
+.container-fluid{
+  max-width: 1260px;
+  margin: auto;
+}
+
+.ca-colors{
+  &__text{
+    &__white{
+      color: $ca-white;
+    }
+    &__yellow{
+      color: $ca-yellow;
+    }
+    &__red{
+      color: $ca-red;
+    }
+    &__orange{
+      color: $ca-orange;
+    }
+    &__green{
+      color: $ca-green;
+    }
+  }
+
+  &__bg{
+    &__white{
+      background-color: $ca-white;
+    }
+    &__purple{
+      background-color: $ca-purple;
+    }
+    &__yellow{
+      background-color: $ca-yellow;
+    }
+    &__red{
+      background-color: $ca-red;
+    }
+    &__orange{
+      background-color: $ca-orange;
+    }
+    &__green{
+      background-color: $ca-green;
+    }
+    &__cyan{
+      background-color: $ca-cyan;
+    }
+    &__bg{
+      background-color: $ca-bg;
+    }
+    &__dark-bg{
+      background-color: $ca-dark-bg;
+    }
+  }
+}
