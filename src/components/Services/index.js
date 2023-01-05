@@ -11,7 +11,7 @@ import chart from '../../assets/img/Icon/ca-icon__chart.png'
 
 const Services = () => {
   return (
-    <section className='ca-services section'>
+    <section className='ca-services section' id='ca-services'>
       <div className='container-fluid'>
         <Titles subtitle='Our Services' title="The various services we provide to make your business more powerful" />
 
