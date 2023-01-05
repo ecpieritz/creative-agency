@@ -1,65 +1,104 @@
 @import './variables';
 
-body{
- background-color: $ca-bg;
- color: $ca-white;
+body {
+  background-color: $ca-bg;
+  color: $ca-white;
 }
 
-.container-fluid{
+.container-fluid {
   max-width: 1260px;
   margin: auto;
 }
 
-.section{
-  margin: 100px auto;
+.section {
+  margin: 100px auto 0;
 }
 
-.ca-colors{
-  &__text{
-    &__white{
+.ca-colors {
+  &__text {
+    &__white {
       color: $ca-white;
     }
-    &__yellow{
+
+    &__yellow {
       color: $ca-yellow;
     }
-    &__red{
+
+    &__red {
       color: $ca-red;
     }
-    &__orange{
+
+    &__orange {
       color: $ca-orange;
     }
-    &__green{
+
+    &__green {
       color: $ca-green;
     }
   }
 
-  &__bg{
-    &__white{
+  &__bg {
+    &__white {
       background-color: $ca-white;
     }
-    &__purple{
+
+    &__purple {
       background-color: $ca-purple;
     }
-    &__yellow{
+
+    &__yellow {
       background-color: $ca-yellow;
     }
-    &__red{
+
+    &__red {
       background-color: $ca-red;
     }
-    &__orange{
+
+    &__orange {
       background-color: $ca-orange;
     }
-    &__green{
+
+    &__green {
       background-color: $ca-green;
     }
-    &__cyan{
+
+    &__cyan {
       background-color: $ca-cyan;
     }
-    &__bg{
+
+    &__bg {
       background-color: $ca-bg;
     }
-    &__dark-bg{
+
+    &__dark-bg {
       background-color: $ca-dark-bg;
+    }
+  }
+}
+
+.ca-list {
+  &__purple-check {
+    list-style: none;
+
+    li {
+      &::before {
+        content: url(../../assets/img/Icon/ca-icon__purple-check.png);
+        font-weight: bold;
+        display: inline-block;
+        width: .5em;
+        margin-left: -1em;
+        margin-right: 2rem;
+        margin-bottom: 10px;
+
+        @media(max-width: 460px){
+          margin-left: 0px;
+        }
+      }
+      
+      span{
+        position: absolute;
+        margin-top: 0;
+      }
     }
   }
 }

@@ -1,0 +1,25 @@
+@import '../abstracts/variables';
+
+.ca-satisfaction {
+  background-color: $ca-dark-bg;
+  padding-top: 100px;
+
+  .col-md-6 {
+    margin-bottom: 60px;
+    .row {
+      gap: 60px 0;
+      p{
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .col-md-5{
+    padding-right: 80px;
+    p{
+      margin: 30px 0;
+      line-height: 1.5;
+    }
+  }
+
+}
