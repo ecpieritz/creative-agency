@@ -18,4 +18,21 @@
       background-color: $ca-dark-purple;
     }
   }
+  &.btn-yellow-bg{
+    background-color: $ca-yellow;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    a{
+      color: $ca-white;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    &:hover{
+      background-color: $ca-dark-yellow;
+    }
+  }
 }

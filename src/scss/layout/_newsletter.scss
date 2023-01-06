@@ -1,0 +1,27 @@
+@import '../abstracts/variables';
+
+.ca-newsletter{
+  padding: 100px 0;
+
+  .container-fluid{
+    background-color: $ca-purple;
+    border-radius: 16px;
+    padding: 40px 200px;
+
+    input{
+      margin-top: 40px;
+    }
+
+    .btn-yellow-bg{
+      color: $ca-bg;   
+    }
+
+    @media(max-width: 780px){
+      padding: 40px 100px;
+    }
+    
+    @media(max-width: 460px){
+      padding: 40px 40px;
+    }
+  }
+}

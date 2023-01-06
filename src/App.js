@@ -9,6 +9,7 @@ import Customers from './components/Customers';
 import Quotes from './components/Quotes';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Quotes />
         <Faq />
         <Contact />
+        <Newsletter />
       </main>
     </>
   );
