@@ -6,6 +6,7 @@ import Documentation from './components/Documentation';
 import Satisfaction from './components/Satisfaction';
 import WorkingSpace from './components/WorkingSpace';
 import Customers from './components/Customers';
+import Quotes from './components/Quotes';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Satisfaction />
         <WorkingSpace />
         <Customers />
+        <Quotes />
       </main>
     </>
   );
