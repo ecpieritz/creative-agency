@@ -10,6 +10,7 @@ import Quotes from './components/Quotes';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Contact />
         <Newsletter />
       </main>
+      <Footer />
     </>
   );
 }
