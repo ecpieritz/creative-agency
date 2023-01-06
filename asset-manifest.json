@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/creative-agency/static/css/main.572e81db.css",
+    "main.js": "/creative-agency/static/js/main.35d0070f.js",
+    "static/media/ca-working-space__02.png": "/creative-agency/static/media/ca-working-space__02.cf522d5405754deef0b5.png",
+    "static/media/ca-banner.png": "/creative-agency/static/media/ca-banner.441177f88c2800090b60.png",
+    "static/media/ca-working-space__03.png": "/creative-agency/static/media/ca-working-space__03.bd236626889fdfde037b.png",
+    "static/media/ca-working-space__01.png": "/creative-agency/static/media/ca-working-space__01.ab01da88c90d38ce048c.png",
+    "static/media/ca-working-space__05.png": "/creative-agency/static/media/ca-working-space__05.bb2398b1e6f2379570f9.png",
+    "static/media/ca-working-space__06.png": "/creative-agency/static/media/ca-working-space__06.2f24538a79ff2905449f.png",
+    "static/media/ca-working-space__04.png": "/creative-agency/static/media/ca-working-space__04.14b90589cc518ef2b406.png",
+    "static/media/ca-documentation__bg.png": "/creative-agency/static/media/ca-documentation__bg.3f6ae9e5274a8c3edbdf.png",
+    "static/media/ca-faq__bg.png": "/creative-agency/static/media/ca-faq__bg.491eb54cb4127a5479ec.png",
+    "static/media/ca-customers__marvel.png": "/creative-agency/static/media/ca-customers__marvel.75ea78395b2dadf2b94b.png",
+    "static/media/ca-footer.png": "/creative-agency/static/media/ca-footer.30dec45341a425dc6485.png",
+    "static/media/ca-customers__123milhas.png": "/creative-agency/static/media/ca-customers__123milhas.ef2e7c158ac7214e3a12.png",
+    "static/media/ca-logo.png": "/creative-agency/static/media/ca-logo.353374d56be3994982ef.png",
+    "index.html": "/creative-agency/index.html",
+    "main.572e81db.css.map": "/creative-agency/static/css/main.572e81db.css.map",
+    "main.35d0070f.js.map": "/creative-agency/static/js/main.35d0070f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.572e81db.css",
+    "static/js/main.35d0070f.js"
+  ]
+}
