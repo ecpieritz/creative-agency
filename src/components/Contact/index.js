@@ -20,7 +20,7 @@ const Contact = () => {
             <label for="contact-message">Your message</label>
             <textarea className="form-control" id="contact-message" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-purple-bg">Send</button>
+          <button type="submit" class="btn btn-purple-bg ">Send</button>
         </form>
       </div>
     </section>
