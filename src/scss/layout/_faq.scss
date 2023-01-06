@@ -1,0 +1,13 @@
+@import '../abstracts/variables';
+
+.ca-faq{
+  background-image: url(../../assets/img/ca-faq__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 100px 0 50px;
+
+  h3{
+    margin-bottom: 30px;
+  }
+}
