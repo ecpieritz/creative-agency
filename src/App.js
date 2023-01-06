@@ -8,6 +8,7 @@ import WorkingSpace from './components/WorkingSpace';
 import Customers from './components/Customers';
 import Quotes from './components/Quotes';
 import Faq from './components/Faq';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Customers />
         <Quotes />
         <Faq />
+        <Contact />
       </main>
     </>
   );

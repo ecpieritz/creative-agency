@@ -1,0 +1,32 @@
+@import '../abstracts/variables';
+
+.ca-contact{
+  background-color: $ca-dark-bg;
+  padding: 100px 0;
+
+  h4{
+    color: $ca-purple;
+  }
+
+  .container-fluid{
+    background-color: $ca-yellow;
+    border-radius: 16px;
+    padding: 40px 200px;
+
+    label{
+      color: $ca-purple;
+    }
+
+    .btn-purple-bg{
+      color: $ca-white;   
+    }
+
+    @media(max-width: 780px){
+      padding: 40px 100px;
+    }
+    
+    @media(max-width: 460px){
+      padding: 40px 40px;
+    }
+  }
+}
